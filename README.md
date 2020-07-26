@@ -1,8 +1,6 @@
-# MovieRevRat
-This ML and DL project (Movie Review Classifier and Rating Predictor) classifies the reviews of a movie as positive or negative and can also predict rating of that movie based on the reviews of that movie.
-<ul>
-  <li>Trained on large IMDB movie review dataset.</li>
-  <li>Uses BernoulliNB, MultinomialNB and Artificial Neural Network (ANN) for classification.</li>
-<li>Compares accuracy of above models and give the best accuracy as well as model for your data.</li>
-  <li>Classifies reviews and predict rating of a movie using the best model.</li>
-</ul>
+# Movie Review Classifier and Rating Predictor
+<li>A ML and DL based project that classifies the reviews of a movie as positive or negative and can also predict rating of the movie based on the reviews.</li>
+<li>Used NLTK (most powerful library for NLP) to preprocess the movie rewiews.</li>
+<li>Performed Tokenization, Stopwords removal and Stemming in preprocessing the reviews.</li>
+<li>Used Bernoulli Naïve Bayes, Multinomial Naïve Bayes and Artificial Neural Network (ANN) models.</li>
+<li>Plotted Confusion Matrix to compare these models and then reported the best model with highest accuracy and used the same to predict rating of the movie.</li>
